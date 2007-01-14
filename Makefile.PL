@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Geo::Coder::YahooJapan::Inverse',
     VERSION_FROM      => 'lib/Geo/Coder/YahooJapan/Inverse.pm', # finds $VERSION
-    PREREQ_PM         => {}, # e.g., Module::Name => 1.1
+    PREREQ_PM         => {Location::GeoTool => 1.98}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Geo/Coder/YahooJapan/Inverse.pm', # retrieve abstract from module
        AUTHOR         => 'root <root@nonet>') : ()),
